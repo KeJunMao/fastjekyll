@@ -26,11 +26,11 @@ If you do not want to clone this repository, you can install it in the following
     ```
     if you get an error you might need to change the execution policy (i.e. enable Powershell) with `Set-ExecutionPolicy RemoteSigned -scope CurrentUser`
 
-2. Install scoop via Ruby:
+2. Install Ruby via scoop:
     ```bash
     scoop install ruby
     ```
-3. Install jekyll and bundle:
+3. Install jekyll and bundle gems:
     ```bash
     gem install jekyll bundler
     ```

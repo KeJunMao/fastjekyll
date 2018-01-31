@@ -44,7 +44,7 @@ echo Install Jekyll and bundler
 
 pause
 
-gem install bundler jekyll && pause
+gem install bundler jekyl:3.6.2 && pause
 
 echo Jekyll 3 and bundler installed successfully!
 

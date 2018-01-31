@@ -32,7 +32,7 @@ If you do not want to clone this repository, you can install it in the following
     ```
 3. Install jekyll and bundle gems:
     ```bash
-    gem install jekyll bundler
+    gem install jekyll:3.6.2 bundler
     ```
 4. Check if Jekyll installed properly: 
     ```

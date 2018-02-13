@@ -32,7 +32,8 @@ If you do not want to clone this repository, you can install it in the following
     ```
 3. Install jekyll and bundle gems:
     ```bash
-    gem install jekyll:3.6.2 bundler
+    # does not support 3.7.*,only 3.4.*~3.6.*,Because http_parser.rb will fail to compile.see https://github.com/tmm1/http_parser.rb/issues/55
+    gem install jekyll:3.6.2 bundler
     ```
 4. Check if Jekyll installed properly: 
     ```

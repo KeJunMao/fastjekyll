@@ -28,8 +28,8 @@ if errorlevel 0 goto exitc
 title AutoInstall-Jekyll-Install Ruby24!
 echo Install Ruby
 pause
-rubyinstaller-2.4.1-1-x86.exe /silent
-cd C:\Ruby24\bin
+rubyinstaller-2.5.1-1-x64.exe /silent
+cd C:\Ruby25-x64\bin
 ruby.exe -v
 
 if errorlevel 9009 goto exits
@@ -44,7 +44,7 @@ echo Install Jekyll and bundler
 
 pause
 
-gem install bundler jekyll:3.6.2 && pause
+gem install bundler jekyll:3.7.3 && pause
 
 echo Jekyll 3 and bundler installed successfully!
 

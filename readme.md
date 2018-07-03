@@ -18,3 +18,4 @@ enjoy!
 
 * [RubyInstaller](https://rubyinstaller.org/)
 * [Jekyll on Windows](https://jekyllrb.com/docs/windows/)
+* [Simple guide](https://github.com/KeJunMao/fastjekyll/issues/6#issuecomment-381793154)
